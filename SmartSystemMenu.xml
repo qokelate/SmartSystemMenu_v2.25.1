@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smartSystemMenu>
+  <processExclusions>
+    <processName>slack.exe</processName>
+    <processName>dllhost.exe</processName>
+    <processName>sihost.exe</processName>
+    <processName>code.exe</processName>
+    <processName>smartscreen.exe</processName>
+  </processExclusions>
+  <createMenuOnInitEvent>
+    <processName>discord.exe</processName>
+    <processName>chrome.exe</processName>
+    <processName>msedge.exe</processName>
+    <processName>firefox.exe</processName>
+    <processName>windowsterminal.exe</processName>
+  </createMenuOnInitEvent>
+  <noRestoreMenuOnExit>
+    <processName>discord.exe</processName>
+  </noRestoreMenuOnExit>
+  <menuItems>
+    <items>
+      <item type="Item" name="information" key1="" key2="" key3="" />
+      <item type="Item" name="roll_up" show="false" key1="" key2="" key3="" />
+      <item type="Item" name="aero_glass" show="false" key1="" key2="" key3="" />
+      <item type="Item" name="always_on_top" key1="" key2="" key3="" />
+      <item type="Item" name="send_to_bottom" show="false" key1="" key2="" key3="" />
+      <item type="Item" name="save_screenshot" key1="" key2="" key3="" />
+      <item type="Item" name="open_file_in_explorer" show="false" key1="" key2="" key3="" />
+      <item type="Item" name="drag_by_mouse" key1="" key2="" key3="" />
+      <item type="Item" name="click_through" key1="" key2="" key3="" />
+      <item type="Item" name="hide_for_alt_tab" show="false" key1="" key2="" key3="" />
+      <item type="Group" name="size" show="false">
+        <items>
+          <item type="Separator" show="false" />
+          <item type="Item" name="size_default" show="false" key1="" key2="" key3="" />
+          <item type="Separator" show="false" />
+          <item type="Item" name="size_custom" show="false" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="move_to" show="false" />
+      <item type="Group" name="alignment" show="false">
+        <items>
+          <item type="Item" name="align_top_left" show="false" key1="18" key2="" key3="103" />
+          <item type="Item" name="align_top_center" show="false" key1="18" key2="" key3="104" />
+          <item type="Item" name="align_top_right" show="false" key1="18" key2="" key3="105" />
+          <item type="Item" name="align_middle_left" show="false" key1="18" key2="" key3="100" />
+          <item type="Item" name="align_middle_center" show="false" key1="18" key2="" key3="101" />
+          <item type="Item" name="align_middle_right" show="false" key1="18" key2="" key3="102" />
+          <item type="Item" name="align_bottom_left" show="false" key1="18" key2="" key3="97" />
+          <item type="Item" name="align_bottom_center" show="false" key1="18" key2="" key3="98" />
+          <item type="Item" name="align_bottom_right" show="false" key1="18" key2="" key3="99" />
+          <item type="Separator" show="false" />
+          <item type="Item" name="align_center_horizontally" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="align_center_vertically" show="false" key1="" key2="" key3="" />
+          <item type="Separator" show="false" />
+          <item type="Item" name="align_default" show="false" key1="" key2="" key3="" />
+          <item type="Separator" show="false" />
+          <item type="Item" name="align_custom" show="false" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="transparency" show="false">
+        <items>
+          <item type="Item" name="trans_opaque" show="false" key1="17" key2="" key3="96" />
+          <item type="Item" name="10%" show="false" key1="17" key2="" key3="97" />
+          <item type="Item" name="20%" show="false" key1="17" key2="" key3="98" />
+          <item type="Item" name="30%" show="false" key1="17" key2="" key3="99" />
+          <item type="Item" name="40%" show="false" key1="17" key2="" key3="100" />
+          <item type="Item" name="50%" show="false" key1="17" key2="" key3="101" />
+          <item type="Item" name="60%" show="false" key1="17" key2="" key3="102" />
+          <item type="Item" name="70%" show="false" key1="17" key2="" key3="103" />
+          <item type="Item" name="80%" show="false" key1="17" key2="" key3="104" />
+          <item type="Item" name="90%" show="false" key1="17" key2="" key3="105" />
+          <item type="Item" name="trans_invisible" show="false" key1="" key2="" key3="" />
+          <item type="Separator" show="false" />
+          <item type="Item" name="trans_default" show="false" key1="" key2="" key3="" />
+          <item type="Separator" show="false" />
+          <item type="Item" name="trans_custom" show="false" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="priority" show="false">
+        <items>
+          <item type="Item" name="priority_real_time" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="priority_high" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="priority_above_normal" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="priority_normal" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="priority_below_normal" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="priority_idle" show="false" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="clipboard">
+        <items>
+          <item type="Item" name="copy_screenshot" key1="" key2="" key3="" />
+          <item type="Item" name="copy_window_text" key1="" key2="" key3="" />
+          <item type="Item" name="copy_window_title" key1="" key2="" key3="" />
+          <item type="Item" name="copy_full_process_path" key1="" key2="" key3="" />
+          <item type="Item" name="clear_clipboard" show="false" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="dimmer" show="false">
+        <items>
+          <item type="Item" name="dimmer_on" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="dimmer_off" show="false" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="buttons" show="false">
+        <items>
+          <item type="Item" name="disable_minimize_button" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="disable_maximize_button" show="false" key1="" key2="" key3="" />
+          <item type="Item" name="disable_close_button" show="false" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="system_tray">
+        <items>
+          <item type="Item" name="minimize_to_systemtray" key1="" key2="" key3="" />
+          <item type="Item" name="minimize_always_to_systemtray" key1="" key2="" key3="" />
+          <item type="Item" name="suspend_to_systemtray" show="false" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="other_windows">
+        <items>
+          <item type="Item" name="minimize_other_windows" key1="" key2="" key3="" />
+          <item type="Item" name="close_other_windows" key1="" key2="" key3="" />
+        </items>
+      </item>
+      <item type="Group" name="start_program" />
+      <item type="Item" name="save_selected_items" key1="" key2="" key3="" />
+    </items>
+    <windowSizeItems>
+      <item title="640x480" left="" top="" width="640" height="480" key1="" key2="" key3="" />
+      <item title="720x480" left="" top="" width="720" height="480" key1="" key2="" key3="" />
+      <item title="720x576" left="" top="" width="720" height="576" key1="" key2="" key3="" />
+      <item title="800x600" left="" top="" width="800" height="600" key1="" key2="" key3="" />
+      <item title="1024x768" left="" top="" width="1024" height="768" key1="" key2="" key3="" />
+      <item title="1152x864" left="" top="" width="1152" height="864" key1="" key2="" key3="" />
+      <item title="1280x720" left="" top="" width="1280" height="720" key1="" key2="" key3="" />
+      <item title="1280x768" left="" top="" width="1280" height="768" key1="" key2="" key3="" />
+      <item title="1280x800" left="" top="" width="1280" height="800" key1="" key2="" key3="" />
+      <item title="1280x960" left="" top="" width="1280" height="960" key1="" key2="" key3="" />
+      <item title="1280x1024" left="" top="" width="1280" height="1024" key1="" key2="" key3="" />
+      <item title="1360x768" left="" top="" width="1360" height="768" key1="" key2="" key3="" />
+      <item title="1400x1050" left="" top="" width="1400" height="1050" key1="" key2="" key3="" />
+      <item title="1440x900" left="" top="" width="1440" height="900" key1="" key2="" key3="" />
+      <item title="1600x900" left="" top="" width="1600" height="900" key1="" key2="" key3="" />
+      <item title="1680x1050" left="" top="" width="1680" height="1050" key1="" key2="" key3="" />
+    </windowSizeItems>
+    <startProgramItems>
+      <item title="Notepad2" fileName="D:\tools\Notepad2_v4.2.25\Notepad2.exe" arguments="" useWindowWorkingDirectory="true" runAs="normal" showWindow="true" beginParameter="%" endParameter="%" />
+      <item title="Calculator" fileName="calc.exe" arguments="" useWindowWorkingDirectory="false" runAs="normal" showWindow="true" beginParameter="%" endParameter="%" />
+      <item title="Explorer" fileName="explorer.exe" arguments="" useWindowWorkingDirectory="false" runAs="normal" showWindow="true" beginParameter="%" endParameter="%" />
+      <item title="Open Command Window" fileName="cmd.exe" arguments="" useWindowWorkingDirectory="true" runAs="normal" showWindow="true" beginParameter="%" endParameter="%" />
+      <item title="Kill This Process" fileName="taskkill.exe" arguments="/F /PID %process_id%" useWindowWorkingDirectory="false" runAs="administrator" showWindow="false" beginParameter="%" endParameter="%" />
+      <item title="Kill Process By PID" fileName="taskkill.exe" arguments="/F /PID %PID%" useWindowWorkingDirectory="false" runAs="administrator" showWindow="false" beginParameter="%" endParameter="%" />
+      <item title="Kill Process By Name" fileName="taskkill.exe" arguments="/IM &quot;%Process Name%&quot; /F" useWindowWorkingDirectory="false" runAs="administrator" showWindow="false" beginParameter="%" endParameter="%" />
+    </startProgramItems>
+  </menuItems>
+  <closer type="0" key1="" key2="" mouseButton="" />
+  <dimmer color="#000000" transparency="50" />
+  <saveSelectedItems aeroGlass="false" alwaysOnTop="true" hideForAltTab="false" alignment="false" transparency="false" priority="false" minimizeToTrayAlways="true" buttons="true" />
+  <sizer type="0" />
+  <systemTrayIcon show="true" />
+  <display highDPI="false" />
+  <language name="zh_cn" />
+</smartSystemMenu>
